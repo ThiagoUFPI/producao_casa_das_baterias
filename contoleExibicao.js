@@ -9,9 +9,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // Renderiza a seção principal
   setTimeout(() => {
+    document.getElementById("section-placeholder").remove();
     document.getElementById("sec-89a0").classList.remove("hidden");
     document.getElementById("sec-7fe7").classList.remove("hidden");
     document.getElementById("sec-f37f").classList.remove("hidden");
-    document.getElementById("section-placeholder").remove();
+    
   }, 2000); // Exibe após 1.5s
 });
