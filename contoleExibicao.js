@@ -13,11 +13,5 @@ window.addEventListener("DOMContentLoaded", () => {
     document.getElementById("sec-7fe7").classList.remove("hidden");
     document.getElementById("sec-f37f").classList.remove("hidden");
     document.getElementById("section-placeholder").remove();
-  }, 3000); // Exibe após 1.5s
-
-  // Renderiza o restante do conteúdo
-  setTimeout(() => {
-    // document.getElementById("restante-placeholder").remove();
-    // document.getElementById("restante").classList.remove("hidden");
-  }, 3000); // Exibe após 3s
+  }, 2000); // Exibe após 1.5s
 });
