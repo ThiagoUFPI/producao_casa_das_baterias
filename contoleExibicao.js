@@ -13,6 +13,6 @@ window.addEventListener("DOMContentLoaded", () => {
     document.getElementById("sec-89a0").classList.remove("hidden");
     document.getElementById("sec-7fe7").classList.remove("hidden");
     document.getElementById("sec-f37f").classList.remove("hidden");
-    
+    document.getElementById("carousel_3c3e").classList.remove("hidden");
   }, 2000); // Exibe após 1.5s
 });
