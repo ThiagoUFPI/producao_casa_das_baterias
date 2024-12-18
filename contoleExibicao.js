@@ -12,6 +12,7 @@ window.addEventListener("DOMContentLoaded", () => {
     document.getElementById("sec-89a0").classList.remove("hidden");
     document.getElementById("sec-7fe7").classList.remove("hidden");
     document.getElementById("sec-f37f").classList.remove("hidden");
+    document.getElementById("section-placeholder").remove();
   }, 3000); // Exibe após 1.5s
 
   // Renderiza o restante do conteúdo
