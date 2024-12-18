@@ -2,6 +2,76 @@
 <html style="font-size: 16px;" lang="pt-BR">
 
 <head>
+	<style>
+    .u-clearfix:after,
+    .u-clearfix:before {
+      content: '';
+      display: table;
+    }
+
+    .u-clearfix:after {
+      clear: both;
+    }
+
+    .u-header.u-sticky {
+      position: fixed;
+      top: 0;
+    }
+
+    @supports (position: sticky) {
+      .u-header.u-sticky {
+        position: sticky;
+      }
+    }
+
+    @supports (position: -webkit-sticky) {
+      .u-header.u-sticky {
+        position: -webkit-sticky;
+      }
+    }
+
+    .u-sticky {
+      transition: background-color 250ms, box-shadow 250ms;
+    }
+
+    .u-overlap .u-header {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+    }
+
+    .u-header.u-sticky,
+    .u-overlap .u-header {
+      z-index: 20;
+      padding-top: 0.1px;
+    }
+
+    .u-overlap .u-header.u-sticky {
+      position: fixed;
+    }
+
+    .u-overlap.u-overlap-transparent .u-header {
+      background-color: transparent !important;
+      background-image: none !important;
+    }
+
+    .u-overlap.u-offcanvas-opened .u-header.u-sticky {
+      z-index: auto;
+      position: absolute !important;
+    }
+
+    .u-overlap.u-overlap-transparent .u-header,
+    .u-image,
+    .u-gradient {
+      color: #111111;
+    }
+
+    .u-shading,
+    .u-overlap.u-overlap-contrast .u-header {
+      color: #ffffff;
+    }
+  </style>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 	
